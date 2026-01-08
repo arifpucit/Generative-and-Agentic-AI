@@ -38,7 +38,7 @@ This repository serves as a comprehensive resource for students enrolled in the 
 ### 🎯 Learning Philosophy
 *"The best way to learn programming is by programming!"* 
 
-Don't just copy-paste the code. Engage with it, modify it, break it, and fix it. This hands-on approach will deepen your understanding of operating system concepts.
+Don't just copy-paste the code. Engage with it, modify it, break it, and fix it. This hands-on approach will deepen your understanding of involved concepts.
 
 ## 📁 Repository Structure
 
