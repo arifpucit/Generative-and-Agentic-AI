@@ -1,7 +1,7 @@
 # Generative-and-Agentic-AI with Arif Butt
 
-[![Course](https://img.shields.io/badge/Course-Operating%20Systems-blue.svg)](http://arifbutt.me/cources)
-[![Language](https://img.shields.io/badge/Language-C-orange.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Course](https://img.shields.io/badge/Course-GenAI%20AgenticAI-blue.svg)](http://arifbutt.me/cources)
+[![Language](https://img.shields.io/badge/Language-Python-orange.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![License](https://img.shields.io/badge/License-Educational-green.svg)](#license)
 
 Welcome to the **Generative and Agentic AI Course** repository! This collection contains Python program source codes containing Proof of Concepts (PoCs) discussed during this course lectures.
