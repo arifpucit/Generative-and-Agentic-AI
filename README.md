@@ -18,16 +18,14 @@ This repository serves as a comprehensive resource for students enrolled in the 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- GCC compiler or any C compiler
+- Basic understanding of Programming in Python
 - Hands-on understanding of Machine Learning
-- Understanding of Deep Learning will be a plus
+- Understanding of Deep Learning concepts will be a plus
 - Mac/Windows/Linux/Unix environment
 
 ### How to Use This Repository
 1. Clone the repository to your local machine
-2. Navigate to the specific program directory
-3. Compile using `gcc program_name.c -o program_name`
-4. Execute the compiled program
+2. Use requirements.txt to build your virtual environment (Detailed steps mentioned in Notebook-00.ipynb
 
 ## 📖 Learning Approach
 
@@ -45,7 +43,7 @@ Don't just copy-paste the code. Engage with it, modify it, break it, and fix it.
 ## 📁 Repository Structure
 
 ```
-📦 Operating-Systems-Examples
+📦 Generative-Agentic-AI
 ├── 📂 Notebooks: Contains all the PoCs discussed in class inside Jupyter Notebooks with descriptive contents and images.
      ├── Overview of the Course
      ├── Accessing Closed Source Flagship AI Models
