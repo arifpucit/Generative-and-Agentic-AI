@@ -16,6 +16,7 @@ dependencies = [
     "docx2txt>=0.9",
     "dotenv>=0.9.9",
     "duckduckgo-search>=8.1.1",
+    "en-core-web-sm",
     "faiss-cpu>=1.13.1",
     "feedparser>=6.0.12",
     "ffmpeg>=1.4",
@@ -80,7 +81,9 @@ dependencies = [
     "soundfile>=0.13.1",
     "spacy>=3.8",
     "sqlalchemy>=2.0.45",
+    "tiktoken>=0.12.0",
     "torch>=2.9.1",
+    "torchvision>=0.20.0",
     "transformers>=5.7.0",
     "trl>=0.26.2",
     "unsloth>=2024.8",
@@ -91,3 +94,6 @@ dependencies = [
     "xlrd>=2.0.2",
     "youtube-transcript-api>=1.2.3",
 ]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
