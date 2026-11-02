@@ -95,6 +95,11 @@ dependencies = [
     "xlrd>=2.0.2",
     "youtube-transcript-api>=1.2.3",
     "deepagents>=0.7.32",
+    "lm-eval[api]>=0.4.13",
+    "ultralytics>=8.4.135",
+    "nbclient>=0.11.0",
+    "nbconvert>=7.17.1",
+    "nbformat>=5.11.1",
 ]
 
 [tool.uv.sources]
@@ -108,3 +113,9 @@ en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/dow
 name = "pytorch-cu128"
 url = "https://download.pytorch.org/whl/cu128"
 explicit = true
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.6.4",
+]

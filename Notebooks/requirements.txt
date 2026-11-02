@@ -3,6 +3,8 @@
 --index-url https://pypi.org/simple
 --extra-index-url https://download.pytorch.org/whl/cu128
 
+absl-py==2.5.1
+    # via rouge-score
 accelerate==1.13.0
     # via
     #   genai-course
@@ -21,6 +23,7 @@ aiohttp==3.13.5
     #   fsspec
     #   instructor
     #   langchain-community
+    #   lm-eval
     #   modal
 aiosignal==1.4.0
     # via aiohttp
@@ -42,6 +45,7 @@ anyio==4.13.0
     #   groq
     #   httpx
     #   httpx2
+    #   jupyter-server
     #   langsmith
     #   mcp
     #   openai
@@ -51,10 +55,18 @@ anyio==4.13.0
     #   watchfiles
 appnope==0.1.4 ; sys_platform == 'darwin'
     # via ipykernel
+argon2-cffi==25.1.0
+    # via jupyter-server
+argon2-cffi-bindings==26.1.0
+    # via argon2-cffi
+arrow==1.4.0
+    # via isoduration
 arxiv==3.0.0
     # via genai-course
 asttokens==3.0.1
     # via stack-data
+async-lru==2.4.0
+    # via jupyterlab
 attrs==26.1.0
     # via
     #   aiohttp
@@ -66,6 +78,8 @@ authlib==1.7.0
     # via
     #   fastmcp-slim
     #   weaviate-client
+babel==2.18.0
+    # via jupyterlab-server
 bcrypt==5.0.0
     # via chromadb
 beartype==0.23.1
@@ -73,10 +87,13 @@ beartype==0.23.1
 beautifulsoup4==4.14.3
     # via
     #   genai-course
+    #   nbconvert
     #   unstructured
     #   wikipedia
 bitsandbytes==0.50.2
     # via unsloth
+bleach==6.4.0
+    # via nbconvert
 blis==1.3.3
     # via thinc
 bottleneck==1.6.0
@@ -115,12 +132,15 @@ certifi==2026.10.23
     #   unsloth-zoo
 cffi==2.0.0
     # via
+    #   argon2-cffi-bindings
     #   cryptography
     #   miniaudio
     #   pytest-codspeed
     #   pyzmq
     #   sounddevice
     #   soundfile
+chardet==6.0.0.post1
+    # via mbstrdecoder
 charset-normalizer==3.4.7
     # via
     #   requests
@@ -142,12 +162,13 @@ click==8.1.8
     #   uvicorn
 cloudpathlib==0.24.0
     # via weasel
-colorama==0.4.6 ; (os_name != 'nt' and sys_platform == 'win32') or (os_name == 'nt' and sys_platform != 'linux')
+colorama==0.4.6
     # via
     #   build
     #   click
     #   ipython
     #   pytest
+    #   sacrebleu
     #   tqdm
     #   uvicorn
     #   wasabi
@@ -189,9 +210,15 @@ cymem==2.0.13
     #   thinc
 dataclasses-json==0.6.7
     # via langchain-community
+dataproperty==1.1.1
+    # via
+    #   pytablewriter
+    #   tabledata
 datasets==4.8.5
     # via
+    #   evaluate
     #   genai-course
+    #   lm-eval
     #   mlx-vlm
     #   trl
     #   unsloth
@@ -203,7 +230,9 @@ decorator==5.2.1
 deepagents==0.7.32
     # via genai-course
 defusedxml==0.7.1
-    # via youtube-transcript-api
+    # via
+    #   nbconvert
+    #   youtube-transcript-api
 deprecated==1.3.1
     # via cassandra-driver
 diffusers==0.37.1
@@ -213,6 +242,8 @@ diffusers==0.37.1
 dill==0.4.1
     # via
     #   datasets
+    #   evaluate
+    #   lm-eval
     #   multiprocess
 distro==1.9.0
     # via
@@ -249,6 +280,8 @@ en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_
     # via genai-course
 et-xmlfile==2.0.0
     # via openpyxl
+evaluate==0.4.6
+    # via lm-eval
 exceptiongroup==1.3.1
     # via fastmcp-slim
 executing==2.2.1
@@ -259,6 +292,8 @@ fastapi==0.136.1
     # via
     #   gradio
     #   mlx-vlm
+fastjsonschema==2.22.3
+    # via nbformat
 fastmcp==4.1.5
     # via
     #   genai-course
@@ -287,6 +322,8 @@ flatbuffers==25.12.19
     # via onnxruntime
 fonttools==4.62.1
     # via matplotlib
+fqdn==1.6.0
+    # via jsonschema
 frozenlist==1.8.0
     # via
     #   aiohttp
@@ -294,6 +331,7 @@ frozenlist==1.8.0
 fsspec==2026.2.0
     # via
     #   datasets
+    #   evaluate
     #   gradio-client
     #   huggingface-hub
     #   torch
@@ -435,6 +473,7 @@ httpx==0.28.1
     #   gradio-client
     #   groq
     #   huggingface-hub
+    #   jupyterlab
     #   langchain-core
     #   langchain-google-vertexai
     #   langchain-tests
@@ -443,6 +482,7 @@ httpx==0.28.1
     #   openai
     #   qdrant-client
     #   safehttpx
+    #   ultralytics-platform
     #   unstructured-client
     #   weasel
     #   weaviate-client
@@ -463,6 +503,7 @@ huggingface-hub==1.13.0
     #   accelerate
     #   datasets
     #   diffusers
+    #   evaluate
     #   genai-course
     #   gradio
     #   gradio-client
@@ -482,6 +523,7 @@ idna==3.20
     #   email-validator
     #   httpx
     #   httpx2
+    #   jsonschema
     #   requests
     #   yarl
 importlib-metadata==8.7.1
@@ -497,7 +539,9 @@ installer==0.7.0
 instructor==1.15.1
     # via genai-course
 ipykernel==7.2.0
-    # via genai-course
+    # via
+    #   genai-course
+    #   jupyterlab
 ipython==9.13.0
     # via
     #   ipykernel
@@ -506,13 +550,20 @@ ipython-pygments-lexers==1.1.1
     # via ipython
 ipywidgets==8.1.8
     # via genai-course
+isoduration==20.11.0
+    # via jsonschema
 jedi==0.19.2
     # via ipython
 jinja2==3.1.6
     # via
     #   gradio
     #   instructor
+    #   jupyter-server
+    #   jupyterlab
+    #   jupyterlab-server
+    #   lm-eval
     #   mlx-lm
+    #   nbconvert
     #   spacy
     #   torch
     #   trl
@@ -532,27 +583,62 @@ joserfc==1.6.4
 jq==1.11.0
     # via genai-course
 json5==0.17.3
-    # via unsloth
+    # via
+    #   jupyterlab-server
+    #   unsloth
 jsonpatch==1.33
     # via langchain-core
 jsonpointer==3.1.1
-    # via jsonpatch
+    # via
+    #   jsonpatch
+    #   jsonschema
 jsonref==1.1.0
     # via fastmcp-slim
 jsonschema==4.26.0
     # via
     #   chromadb
+    #   jupyter-events
+    #   jupyterlab-server
     #   mcp
+    #   nbformat
 jsonschema-path==0.5.0
     # via fastmcp-slim
 jsonschema-specifications==2025.9.1
     # via jsonschema
+jupyter-builder==1.2.4
+    # via jupyterlab
 jupyter-client==8.8.0
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   jupyter-server
+    #   nbclient
 jupyter-core==5.9.1
     # via
     #   ipykernel
+    #   jupyter-builder
     #   jupyter-client
+    #   jupyter-server
+    #   jupyterlab
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+jupyter-events==0.12.1
+    # via jupyter-server
+jupyter-lsp==2.3.1
+    # via jupyterlab
+jupyter-server==2.21.1
+    # via
+    #   jupyter-lsp
+    #   jupyterlab
+    #   jupyterlab-server
+    #   notebook-shim
+jupyter-server-terminals==0.5.4
+    # via jupyter-server
+jupyterlab==4.6.5
+jupyterlab-pygments==0.3.0
+    # via nbconvert
+jupyterlab-server==2.28.1
+    # via jupyterlab
 jupyterlab-widgets==3.0.16
     # via ipywidgets
 kiwisolver==1.5.0
@@ -638,14 +724,19 @@ langsmith==0.14.17
     #   langchain-classic
     #   langchain-community
     #   langchain-core
+lark==1.3.1
+    # via rfc3987-syntax
 llguidance==1.9.1 ; platform_machine == 'arm64' and sys_platform == 'darwin'
     # via mlx-vlm
 llvmlite==0.47.0
     # via numba
+lm-eval==0.4.13
+    # via genai-course
 lxml==6.1.0
     # via
     #   duckduckgo-search
     #   python-docx
+    #   sacrebleu
     #   unstructured
 markdown-it-py==4.0.0
     # via rich
@@ -653,17 +744,24 @@ markupsafe==3.0.3
     # via
     #   gradio
     #   jinja2
+    #   nbconvert
     #   werkzeug
 marshmallow==3.26.2
     # via dataclasses-json
 matplotlib==3.10.9
     # via
     #   genai-course
+    #   ultralytics
     #   wordcloud
 matplotlib-inline==0.2.1
     # via
     #   ipykernel
     #   ipython
+mbstrdecoder==1.1.5
+    # via
+    #   dataproperty
+    #   pytablewriter
+    #   typepy
 mcp==2.3.0
     # via
     #   fastmcp-slim
@@ -678,6 +776,8 @@ miniaudio==1.71 ; platform_machine == 'arm64' and sys_platform == 'darwin'
     # via
     #   mlx-audio
     #   mlx-vlm
+mistune==3.4.0
+    # via nbconvert
 mlx==0.32.4 ; platform_machine == 'arm64' and sys_platform == 'darwin'
     # via
     #   mlx-audio
@@ -699,6 +799,8 @@ mmh3==5.2.1
     # via chromadb
 modal==1.4.2
     # via genai-course
+more-itertools==11.2.1
+    # via lm-eval
 mpmath==1.3.0
     # via sympy
 msgspec==0.22.0
@@ -711,7 +813,9 @@ multidict==6.7.1
     #   grpclib
     #   yarl
 multiprocess==0.70.19
-    # via datasets
+    # via
+    #   datasets
+    #   evaluate
 murmurhash==1.0.15
     # via
     #   preshed
@@ -723,6 +827,20 @@ mysql-connector-python==9.7.0
     # via genai-course
 narwhals==2.20.0
     # via plotly
+nbclient==0.11.0
+    # via
+    #   genai-course
+    #   nbconvert
+nbconvert==7.17.2
+    # via
+    #   genai-course
+    #   jupyter-server
+nbformat==5.11.1
+    # via
+    #   genai-course
+    #   jupyter-server
+    #   nbclient
+    #   nbconvert
 neo4j==6.1.0
     # via genai-course
 nest-asyncio==1.6.0
@@ -732,7 +850,11 @@ nest-asyncio==1.6.0
 networkx==3.6.1
     # via torch
 nltk==3.9.4
-    # via genai-course
+    # via
+    #   genai-course
+    #   rouge-score
+notebook-shim==0.2.4
+    # via jupyterlab
 numba==0.65.1
     # via unstructured
 numexpr==2.14.1
@@ -747,6 +869,7 @@ numpy==2.4.4
     #   contourpy
     #   datasets
     #   diffusers
+    #   evaluate
     #   faiss-cpu
     #   genai-course
     #   gensim
@@ -754,6 +877,7 @@ numpy==2.4.4
     #   langchain-chroma
     #   langchain-community
     #   langchain-tests
+    #   lm-eval
     #   matplotlib
     #   mlx-audio
     #   mlx-lm
@@ -765,6 +889,8 @@ numpy==2.4.4
     #   pandas
     #   peft
     #   qdrant-client
+    #   rouge-score
+    #   sacrebleu
     #   scikit-learn
     #   scipy
     #   sentence-transformers
@@ -773,6 +899,8 @@ numpy==2.4.4
     #   thinc
     #   torchvision
     #   transformers
+    #   ultralytics
+    #   ultralytics-thop
     #   unsloth
     #   unsloth-zoo
     #   unstructured
@@ -805,6 +933,8 @@ nvidia-cusparse-cu12==12.5.8.93 ; sys_platform == 'linux'
     #   nvidia-cusolver-cu12
 nvidia-cusparselt-cu12==0.7.1 ; sys_platform == 'linux'
     # via torch
+nvidia-ml-py==13.615.71
+    # via ultralytics
 nvidia-nccl-cu12==2.28.9 ; sys_platform == 'linux'
     # via torch
 nvidia-nvjitlink-cu12==12.8.93 ; sys_platform == 'linux'
@@ -837,8 +967,10 @@ openai-agents==0.20.0
     # via genai-course
 openapi-pydantic==0.6.0
     # via fastmcp-slim
-opencv-python==5.0.0.93 ; platform_machine == 'arm64' and sys_platform == 'darwin'
-    # via mlx-vlm
+opencv-python==5.0.0.93
+    # via
+    #   mlx-vlm
+    #   ultralytics
 openpyxl==3.1.5
     # via genai-course
 opentelemetry-api==1.41.1
@@ -882,6 +1014,7 @@ packaging==26.2
     #   build
     #   datasets
     #   deepagents
+    #   evaluate
     #   faiss-cpu
     #   fastmcp-slim
     #   google-cloud-aiplatform
@@ -890,10 +1023,15 @@ packaging==26.2
     #   gradio-client
     #   huggingface-hub
     #   ipykernel
+    #   jupyter-events
+    #   jupyter-server
+    #   jupyterlab
+    #   jupyterlab-server
     #   langchain-core
     #   langsmith
     #   marshmallow
     #   matplotlib
+    #   nbconvert
     #   onnxruntime
     #   peft
     #   plotly
@@ -902,6 +1040,7 @@ packaging==26.2
     #   thinc
     #   transformers
     #   trl
+    #   typepy
     #   unsloth
     #   unsloth-zoo
     #   weasel
@@ -909,12 +1048,17 @@ packaging==26.2
 pandas==3.0.2
     # via
     #   datasets
+    #   evaluate
     #   genai-course
     #   gradio
+pandocfilters==1.5.1
+    # via nbconvert
 parso==0.8.6
     # via jedi
 pathable==0.6.0
     # via jsonschema-path
+pathvalidate==3.3.1
+    # via pytablewriter
 peft==0.19.1
     # via
     #   genai-course
@@ -929,6 +1073,7 @@ pillow==12.2.0
     #   matplotlib
     #   mlx-vlm
     #   torchvision
+    #   ultralytics
     #   unsloth-zoo
     #   wordcloud
 pinecone==8.1.2
@@ -947,14 +1092,22 @@ plotly==6.7.0
     # via genai-course
 pluggy==1.6.0
     # via pytest
+polars==2.1.0
+    # via ultralytics
+polars-runtime-32==2.1.0
+    # via polars
 portalocker==3.2.0
-    # via qdrant-client
+    # via
+    #   qdrant-client
+    #   sacrebleu
 preshed==3.0.13
     # via
     #   spacy
     #   thinc
 primp==1.2.3
     # via duckduckgo-search
+prometheus-client==0.26.0
+    # via jupyter-server
 prompt-toolkit==3.0.52
     # via ipython
 propcache==0.4.1
@@ -991,6 +1144,7 @@ psutil==7.2.2
     #   ipykernel
     #   ipython
     #   peft
+    #   ultralytics
     #   unsloth
     #   unsloth-zoo
     #   unstructured
@@ -998,8 +1152,10 @@ psycopg2==2.9.12
     # via genai-course
 psycopg2-binary==2.9.12
     # via genai-course
-ptyprocess==0.7.0 ; sys_platform != 'emscripten' and sys_platform != 'win32'
-    # via pexpect
+ptyprocess==0.7.0 ; os_name != 'nt' or (sys_platform != 'emscripten' and sys_platform != 'win32')
+    # via
+    #   pexpect
+    #   terminado
 pure-eval==0.2.3
     # via stack-data
 py-cpuinfo==9.0.0
@@ -1072,6 +1228,7 @@ pygments==2.20.0
     # via
     #   ipython
     #   ipython-pygments-lexers
+    #   nbconvert
     #   pytest
     #   rich
     #   rich-rst
@@ -1095,6 +1252,8 @@ pypika==0.51.1
     # via chromadb
 pyproject-hooks==1.2.0
     # via build
+pytablewriter==1.2.1
+    # via lm-eval
 pytest==9.0.3
     # via
     #   langchain-tests
@@ -1116,12 +1275,14 @@ pytest-socket==0.7.0
     # via langchain-tests
 python-dateutil==2.9.0.post0
     # via
+    #   arrow
     #   google-cloud-bigquery
     #   jupyter-client
     #   kubernetes
     #   matplotlib
     #   pandas
     #   pinecone
+    #   typepy
 python-docx==1.2.0
     # via genai-course
 python-dotenv==1.2.2
@@ -1134,6 +1295,8 @@ python-http-client==3.3.7
     # via sendgrid
 python-iso639==2026.4.20
     # via unstructured
+python-json-logger==4.2.0
+    # via jupyter-events
 python-magic==0.4.27
     # via unstructured
 python-multipart==0.0.27
@@ -1148,10 +1311,16 @@ pytz==2026.1.post1
     # via
     #   gradio
     #   neo4j
+    #   typepy
 pywin32==311 ; sys_platform == 'win32'
     # via
     #   mcp
     #   portalocker
+pywinpty==3.1.2 ; os_name == 'nt' and sys_platform != 'darwin' and sys_platform != 'linux'
+    # via
+    #   jupyter-server
+    #   jupyter-server-terminals
+    #   terminado
 pyyaml==6.0.3
     # via
     #   accelerate
@@ -1161,6 +1330,7 @@ pyyaml==6.0.3
     #   gradio
     #   huggingface-hub
     #   jsonschema-path
+    #   jupyter-events
     #   kubernetes
     #   langchain-classic
     #   langchain-community
@@ -1175,6 +1345,7 @@ pyzmq==27.1.0
     # via
     #   ipykernel
     #   jupyter-client
+    #   jupyter-server
 qdrant-client==1.17.1
     # via genai-course
 rapidfuzz==3.14.5
@@ -1186,10 +1357,12 @@ referencing==0.37.0
     #   jsonschema
     #   jsonschema-path
     #   jsonschema-specifications
+    #   jupyter-events
 regex==2026.4.4
     # via
     #   diffusers
     #   nltk
+    #   sacrebleu
     #   tiktoken
     #   transformers
     #   unsloth-zoo
@@ -1199,6 +1372,7 @@ requests==2.33.1
     #   arxiv
     #   datasets
     #   diffusers
+    #   evaluate
     #   genai-course
     #   google-api-core
     #   google-auth
@@ -1207,10 +1381,12 @@ requests==2.33.1
     #   google-genai
     #   gtts
     #   instructor
+    #   jupyterlab-server
     #   kubernetes
     #   langchain-classic
     #   langchain-community
     #   langsmith
+    #   lm-eval
     #   mlx-vlm
     #   openai-agents
     #   pinecone-plugin-assistant
@@ -1218,6 +1394,7 @@ requests==2.33.1
     #   requests-toolbelt
     #   spacy
     #   tiktoken
+    #   ultralytics
     #   unsloth-zoo
     #   unstructured
     #   wikipedia
@@ -1228,6 +1405,16 @@ requests-toolbelt==1.0.0
     # via
     #   langsmith
     #   unstructured-client
+rfc3339-validator==0.1.4
+    # via
+    #   jsonschema
+    #   jupyter-events
+rfc3986-validator==0.1.1
+    # via
+    #   jsonschema
+    #   jupyter-events
+rfc3987-syntax==1.1.0
+    # via jsonschema
 rich==14.3.4
     # via
     #   chromadb
@@ -1241,10 +1428,14 @@ rich==14.3.4
     #   unsloth
 rich-rst==2.2.0
     # via cyclopts
+rouge-score==0.1.2
+    # via lm-eval
 rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
+sacrebleu==2.6.0
+    # via lm-eval
 safehttpx==0.1.7
     # via gradio
 safetensors==0.7.0
@@ -1256,6 +1447,7 @@ safetensors==0.7.0
 scikit-learn==1.8.0
     # via
     #   genai-course
+    #   lm-eval
     #   sentence-transformers
 scipy==1.17.1
     # via
@@ -1266,6 +1458,8 @@ scipy==1.17.1
     #   sentence-transformers
 semantic-version==2.10.0
     # via gradio
+send2trash==2.1.0
+    # via jupyter-server
 sendgrid==6.12.5
     # via genai-course
 sentence-transformers==5.4.1
@@ -1278,6 +1472,7 @@ sentencepiece==0.2.1
     #   unsloth-zoo
 setuptools==81.0.0
     # via
+    #   pytablewriter
     #   spacy
     #   thinc
     #   torch
@@ -1291,6 +1486,8 @@ six==1.17.0
     #   kubernetes
     #   langdetect
     #   python-dateutil
+    #   rfc3339-validator
+    #   rouge-score
 smart-open==7.6.0
     # via
     #   gensim
@@ -1323,6 +1520,8 @@ sqlalchemy==2.0.49
     #   genai-course
     #   langchain-classic
     #   langchain-community
+sqlitedict==2.1.0
+    # via lm-eval
 srsly==2.5.3
     # via
     #   spacy
@@ -1348,6 +1547,12 @@ synchronicity==0.12.2
     # via modal
 syrupy==5.1.0
     # via langchain-tests
+tabledata==1.3.5
+    # via pytablewriter
+tabulate==0.10.0
+    # via sacrebleu
+tcolorpy==0.1.7
+    # via pytablewriter
 tenacity==9.1.4
     # via
     #   chromadb
@@ -1355,6 +1560,11 @@ tenacity==9.1.4
     #   instructor
     #   langchain-community
     #   langchain-core
+    #   lm-eval
+terminado==0.18.1
+    # via
+    #   jupyter-server
+    #   jupyter-server-terminals
 thinc==8.3.13
     # via spacy
 threadpoolctl==3.6.0
@@ -1363,6 +1573,9 @@ tiktoken==0.12.0
     # via
     #   genai-course
     #   langchain-openai
+    #   lm-eval
+tinycss2==1.5.1
+    # via bleach
 tokenizers==0.22.2
     # via
     #   chromadb
@@ -1381,6 +1594,8 @@ torch==2.11.0 ; sys_platform != 'linux' and sys_platform != 'win32'
     #   peft
     #   sentence-transformers
     #   torchvision
+    #   ultralytics
+    #   ultralytics-thop
     #   unsloth
     #   unsloth-zoo
     #   xformers
@@ -1393,6 +1608,8 @@ torch==2.11.0+cu128 ; sys_platform == 'linux' or sys_platform == 'win32'
     #   peft
     #   sentence-transformers
     #   torchvision
+    #   ultralytics
+    #   ultralytics-thop
     #   unsloth
     #   unsloth-zoo
     #   xformers
@@ -1401,20 +1618,27 @@ torchao==0.18.0 ; platform_machine != 'arm64' or sys_platform != 'darwin'
 torchvision==0.26.0 ; sys_platform != 'linux' and sys_platform != 'win32'
     # via
     #   genai-course
+    #   ultralytics
     #   unsloth
 torchvision==0.26.0+cu128 ; sys_platform == 'linux' or sys_platform == 'win32'
     # via
     #   genai-course
+    #   ultralytics
     #   unsloth
 tornado==6.5.5
     # via
     #   ipykernel
     #   jupyter-client
+    #   jupyter-server
+    #   jupyterlab
+    #   terminado
 tqdm==4.67.3
     # via
     #   chromadb
     #   datasets
+    #   evaluate
     #   huggingface-hub
+    #   lm-eval
     #   mlx-audio
     #   mlx-vlm
     #   nltk
@@ -1431,9 +1655,16 @@ traitlets==5.14.3
     #   ipykernel
     #   ipython
     #   ipywidgets
+    #   jupyter-builder
     #   jupyter-client
     #   jupyter-core
+    #   jupyter-events
+    #   jupyter-server
+    #   jupyterlab
     #   matplotlib-inline
+    #   nbclient
+    #   nbconvert
+    #   nbformat
 transformers==5.7.0
     # via
     #   genai-course
@@ -1464,6 +1695,11 @@ truststore==0.10.5 ; sys_platform != 'emscripten'
     #   httpx2
 typeguard==4.6.0
     # via tyro
+typepy==1.3.5
+    # via
+    #   dataproperty
+    #   pytablewriter
+    #   tabledata
 typer==0.23.1
     # via
     #   chromadb
@@ -1501,6 +1737,7 @@ typing-extensions==4.15.0
     #   langchain-core
     #   langchain-protocol
     #   langsmith
+    #   lm-eval
     #   mcp
     #   mcp-types
     #   modal
@@ -1542,8 +1779,16 @@ tyro==1.0.16
     # via
     #   unsloth
     #   unsloth-zoo
-tzdata==2026.2 ; sys_platform == 'emscripten' or sys_platform == 'win32'
-    # via pandas
+tzdata==2026.2
+    # via
+    #   arrow
+    #   pandas
+ultralytics==8.4.198
+    # via genai-course
+ultralytics-platform==0.1.102
+    # via ultralytics
+ultralytics-thop==2.2.4
+    # via ultralytics
 uncalled-for==0.4.1
     # via fastmcp-slim
 unsloth==2026.10.9
@@ -1554,6 +1799,8 @@ unstructured==0.22.26
     # via genai-course
 unstructured-client==0.43.2
     # via unstructured
+uri-template==1.3.0
+    # via jsonschema
 urllib3==2.6.3
     # via
     #   kubernetes
@@ -1599,10 +1846,17 @@ weasel==1.0.0
     # via spacy
 weaviate-client==4.21.0
     # via genai-course
+webcolors==25.10.0
+    # via jsonschema
 webencodings==0.5.1
-    # via html5lib
+    # via
+    #   bleach
+    #   html5lib
+    #   tinycss2
 websocket-client==1.9.0
-    # via kubernetes
+    # via
+    #   jupyter-server
+    #   kubernetes
 websockets==16.0
     # via
     #   fastmcp-slim
@@ -1621,6 +1875,8 @@ widgetsnbextension==4.0.15
     # via ipywidgets
 wikipedia==1.4.0
     # via genai-course
+word2number==1.1
+    # via lm-eval
 wordcloud==1.9.6
     # via genai-course
 wrapt==2.1.2
@@ -1636,6 +1892,7 @@ xlrd==2.0.2
 xxhash==3.7.0
     # via
     #   datasets
+    #   evaluate
     #   langgraph
     #   langsmith
 yarl==1.23.0
