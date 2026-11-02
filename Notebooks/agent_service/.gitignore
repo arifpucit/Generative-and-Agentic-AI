@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+
+# Secrets and logs: never commit these
+.env
+*.log

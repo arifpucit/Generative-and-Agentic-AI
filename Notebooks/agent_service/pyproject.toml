@@ -1,0 +1,13 @@
+[project]
+name = "agent-service"
+version = "0.1.0"
+description = "The Lec-47 MCP agent as a FastAPI web service (Lec-48)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.136.1",
+    "fastmcp>=4.1.0",
+    "openai>=2.54.0",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.46.0",
+]
