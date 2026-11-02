@@ -18,6 +18,7 @@ dependencies = [
     "duckduckgo-search>=8.1.1",
     "en-core-web-sm",
     "faiss-cpu>=1.13.1",
+    "fastmcp>=4.1.0",
     "feedparser>=6.0.12",
     "ffmpeg>=1.4",
     "gensim>=4.4.0",
