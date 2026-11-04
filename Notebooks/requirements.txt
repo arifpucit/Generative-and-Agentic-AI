@@ -458,6 +458,7 @@ html5lib==1.1
 httpcore==1.0.9
     # via
     #   httpx
+    #   openrouter
     #   unstructured-client
 httpcore2==2.16.0 ; sys_platform != 'emscripten'
     # via httpx2
@@ -480,6 +481,7 @@ httpx==0.28.1
     #   langgraph-sdk
     #   ollama
     #   openai
+    #   openrouter
     #   qdrant-client
     #   safehttpx
     #   ultralytics-platform
@@ -588,6 +590,8 @@ json5==0.17.3
     #   unsloth
 jsonpatch==1.33
     # via langchain-core
+jsonpath-python==1.1.6
+    # via openrouter
 jsonpointer==3.1.1
     # via
     #   jsonpatch
@@ -674,7 +678,9 @@ langchain-core==1.7.3
     #   langchain-google-genai
     #   langchain-google-vertexai
     #   langchain-huggingface
+    #   langchain-ollama
     #   langchain-openai
+    #   langchain-openrouter
     #   langchain-tests
     #   langchain-text-splitters
     #   langgraph
@@ -691,7 +697,11 @@ langchain-google-vertexai==3.2.3
     # via genai-course
 langchain-huggingface==1.2.2
     # via genai-course
+langchain-ollama==1.1.0
+    # via genai-course
 langchain-openai==1.2.1
+    # via genai-course
+langchain-openrouter==0.2.9
     # via genai-course
 langchain-protocol==0.0.20
     # via
@@ -954,7 +964,9 @@ olefile==0.47
     #   msoffcrypto-tool
     #   python-oxmsg
 ollama==0.6.2
-    # via genai-course
+    # via
+    #   genai-course
+    #   langchain-ollama
 onnxruntime==1.25.1
     # via chromadb
 openai==2.54.0
@@ -973,6 +985,8 @@ opencv-python==5.0.0.93
     #   ultralytics
 openpyxl==3.1.5
     # via genai-course
+openrouter==0.10.8
+    # via langchain-openrouter
 opentelemetry-api==1.41.1
     # via
     #   anthropic
@@ -1201,6 +1215,7 @@ pydantic==2.13.3
     #   openai
     #   openai-agents
     #   openapi-pydantic
+    #   openrouter
     #   pydantic-settings
     #   qdrant-client
     #   spacy
