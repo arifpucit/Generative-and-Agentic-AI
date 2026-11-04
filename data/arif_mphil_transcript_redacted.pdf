@@ -1,0 +1,572 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Author (\050anonymous\051)
+/CreationDate (D\07220261104155200\05300\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220261104155200\05300\04700\047)
+/Subject (M\056Phil Computer Science transcript\054 session 2006\0552008)
+/Title (Academic Transcript \055 Muhammad Arif Butt \055 M\056Phil Computer Science \050PUCIT\051)
+/Trapped (\057False)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 11 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 10513
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F1 7 Tf 8.4 TL ET
+.466667 .466667 .466667 rg
+BT 1 0 0 1 158.5513 22.67717 Tm (Text transcription of the original transcript for indexing purposes. Not an official document.) Tj T* ET
+q
+1 0 0 1 45.68504 773.4047 cm
+q
+.231373 .184314 .560784 rg
+BT 1 0 0 1 0 3.8 Tm /F2 19 Tf 22.8 TL 12.29626 0 Td (Punjab University College of Information Technology) Tj T* -12.29626 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 770.4047 cm
+Q
+q
+1 0 0 1 45.68504 756.0047 cm
+q
+.231373 .184314 .560784 rg
+BT 1 0 0 1 0 2.4 Tm /F3 12 Tf 14.4 TL 143.1188 0 Td (University of the Punjab, Lahore-Pakistan) Tj T* -143.1188 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 753.0047 cm
+Q
+q
+1 0 0 1 45.68504 729.0047 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F4 20 Tf 24 TL 135.0028 0 Td (ACADEMIC TRANSCRIPT) Tj T* -135.0028 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 723.0047 cm
+Q
+q
+1 0 0 1 45.68504 708.6047 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F2 12 Tf 14.4 TL 179.9348 0 Td (M.Phil Computer Science) Tj T* -179.9348 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 700.6047 cm
+Q
+q
+1 0 0 1 39.68504 620.6047 cm
+q
+0 0 0 rg
+BT /F2 9.5 Tf 12 TL ET
+BT 1 0 0 1 2 67.5 Tm (Serial No.: [removed]) Tj T* ET
+BT 1 0 0 1 337.3386 67.5 Tm  T* ET
+BT 1 0 0 1 2 47.5 Tm (Reg. No.: [removed]) Tj T* ET
+BT 1 0 0 1 337.3386 47.5 Tm (Date: July 13, 2010) Tj T* ET
+BT 1 0 0 1 2 27.5 Tm (Name of Student: MUHAMMAD ARIF BUTT) Tj T* ET
+BT 1 0 0 1 337.3386 27.5 Tm (Roll No.: [removed]) Tj T* ET
+BT 1 0 0 1 2 7.5 Tm (Father's Name: [removed]) Tj T* ET
+BT 1 0 0 1 337.3386 7.5 Tm (Session: 2006-2008) Tj T* ET
+q
+Q
+Q
+Q
+q
+1 0 0 1 45.68504 610.6047 cm
+Q
+q
+1 0 0 1 39.68504 329.6047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 142 cm
+q
+0 0 0 rg
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 3 124.5 Tm (Semester 1) Tj T* ET
+BT 1 0 0 1 162.6472 124.5 Tm  T* ET
+BT 1 0 0 1 190.0866 124.5 Tm  T* ET
+BT 1 0 0 1 225.0094 124.5 Tm  T* ET
+BT 1 0 0 1 14.31988 100.5 Tm (Code) Tj T* ET
+BT 1 0 0 1 80.20775 100.5 Tm (Course Title) Tj T* ET
+BT 1 0 0 1 160.3789 100.5 Tm (Cr Hrs) Tj T* ET
+BT /F2 7.5 Tf 12 TL ET
+BT 1 0 0 1 193.7105 107.5 Tm (Marks) Tj T* ET
+BT 1 0 0 1 192.6718 95.5 Tm (Obtain) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 223.4466 100.5 Tm (Grade) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 10.53738 72.5 Tm (CS-541) Tj T* ET
+q
+1 0 0 1 52.88976 65 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.5 Tm /F1 8.5 Tf 10 TL (Advance Software) Tj T* (Development) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 72.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 72.5 Tm (73) Tj T* ET
+BT 1 0 0 1 232.8944 72.5 Tm (B) Tj T* ET
+BT 1 0 0 1 10.53738 46.5 Tm (CS-510) Tj T* ET
+q
+1 0 0 1 52.88976 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.5 Tm /F1 8.5 Tf 10 TL (Analysis and Design of) Tj T* (Algorithms) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 46.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 46.5 Tm (88) Tj T* ET
+BT 1 0 0 1 230.4124 46.5 Tm (A+) Tj T* ET
+BT 1 0 0 1 10.53738 24.5 Tm (CS-530) Tj T* ET
+q
+1 0 0 1 52.88976 22 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.5 Tm /F1 8.5 Tf 10 TL (Advance Web Semantics) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 24.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 24.5 Tm (85) Tj T* ET
+BT 1 0 0 1 230.4124 24.5 Tm (A+) Tj T* ET
+BT /F1 7 Tf 12 TL ET
+BT 1 0 0 1 3 8 Tm (Credit Hrs=9) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 52.88976 6.5 Tm (Semester GPA=3.67) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 195.6259 6.5 Tm (GPA=) Tj T* ET
+BT 1 0 0 1 227.4586 6.5 Tm (3.67) Tj T* ET
+q
+1 J
+1 j
+0 0 0 RG
+.6 w
+n 0 118 m 249.4488 118 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 118 l S
+n 249.4488 0 m 249.4488 118 l S
+n 0 88 m 249.4488 88 l S
+n 0 62 m 249.4488 62 l S
+n 0 36 m 249.4488 36 l S
+n 0 18 m 249.4488 18 l S
+n 49.88976 0 m 49.88976 118 l S
+n 159.6472 18 m 159.6472 118 l S
+n 187.0866 0 m 187.0866 118 l S
+n 222.0094 0 m 222.0094 118 l S
+.8 w
+n 0 136 m 249.4488 136 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 136 l S
+n 249.4488 0 m 249.4488 136 l S
+.6 w
+n 0 118 m 159.6472 118 l S
+Q
+Q
+Q
+BT 1 0 0 1 249.4488 268 Tm  T* ET
+q
+1 0 0 1 266.4567 124 cm
+q
+0 0 0 rg
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 3 142.5 Tm (Semester 2) Tj T* ET
+BT 1 0 0 1 162.6472 142.5 Tm  T* ET
+BT 1 0 0 1 190.0866 142.5 Tm  T* ET
+BT 1 0 0 1 225.0094 142.5 Tm  T* ET
+BT 1 0 0 1 14.31988 118.5 Tm (Code) Tj T* ET
+BT 1 0 0 1 80.20775 118.5 Tm (Course Title) Tj T* ET
+BT 1 0 0 1 160.3789 118.5 Tm (Cr Hrs) Tj T* ET
+BT /F2 7.5 Tf 12 TL ET
+BT 1 0 0 1 193.7105 125.5 Tm (Marks) Tj T* ET
+BT 1 0 0 1 192.6718 113.5 Tm (Obtain) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 223.4466 118.5 Tm (Grade) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 10.53738 90.5 Tm (CS-520) Tj T* ET
+q
+1 0 0 1 52.88976 83 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.5 Tm /F1 8.5 Tf 10 TL (Advance Computer) Tj T* (Architecture) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 90.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 90.5 Tm (90) Tj T* ET
+BT 1 0 0 1 230.4124 90.5 Tm (A+) Tj T* ET
+BT 1 0 0 1 10.53738 64.5 Tm (CS-525) Tj T* ET
+q
+1 0 0 1 52.88976 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.5 Tm /F1 8.5 Tf 10 TL (Advance Operating) Tj T* (Systems) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 64.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 64.5 Tm (89) Tj T* ET
+BT 1 0 0 1 230.4124 64.5 Tm (A+) Tj T* ET
+BT 1 0 0 1 10.53738 42.5 Tm (CS-500) Tj T* ET
+q
+1 0 0 1 52.88976 40 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.5 Tm /F1 8.5 Tf 10 TL (Digital Signal Processing) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 42.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 42.5 Tm (90) Tj T* ET
+BT 1 0 0 1 230.4124 42.5 Tm (A+) Tj T* ET
+BT 1 0 0 1 10.53738 24.5 Tm (CS-515) Tj T* ET
+q
+1 0 0 1 52.88976 22 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.5 Tm /F1 8.5 Tf 10 TL (Theory of Computation) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 24.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 24.5 Tm (83) Tj T* ET
+BT 1 0 0 1 232.8944 24.5 Tm (A) Tj T* ET
+BT /F1 7 Tf 12 TL ET
+BT 1 0 0 1 3 8 Tm (Credit Hrs=12) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 52.88976 6.5 Tm (Semester GPA=3.93) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 189.4889 6.5 Tm (CGPA=) Tj T* ET
+BT 1 0 0 1 227.4586 6.5 Tm (3.81) Tj T* ET
+q
+1 J
+1 j
+0 0 0 RG
+.6 w
+n 0 136 m 249.4488 136 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 136 l S
+n 249.4488 0 m 249.4488 136 l S
+n 0 106 m 249.4488 106 l S
+n 0 80 m 249.4488 80 l S
+n 0 54 m 249.4488 54 l S
+n 0 36 m 249.4488 36 l S
+n 0 18 m 249.4488 18 l S
+n 49.88976 0 m 49.88976 136 l S
+n 159.6472 18 m 159.6472 136 l S
+n 187.0866 0 m 187.0866 136 l S
+n 222.0094 0 m 222.0094 136 l S
+.8 w
+n 0 154 m 249.4488 154 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 154 l S
+n 249.4488 0 m 249.4488 154 l S
+.6 w
+n 0 136 m 159.6472 136 l S
+Q
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+0 0 0 rg
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 3 90.5 Tm (Semester 3) Tj T* ET
+BT 1 0 0 1 162.6472 90.5 Tm  T* ET
+BT 1 0 0 1 190.0866 90.5 Tm  T* ET
+BT 1 0 0 1 225.0094 90.5 Tm  T* ET
+BT 1 0 0 1 14.31988 66.5 Tm (Code) Tj T* ET
+BT 1 0 0 1 80.20775 66.5 Tm (Course Title) Tj T* ET
+BT 1 0 0 1 160.3789 66.5 Tm (Cr Hrs) Tj T* ET
+BT /F2 7.5 Tf 12 TL ET
+BT 1 0 0 1 193.7105 73.5 Tm (Marks) Tj T* ET
+BT 1 0 0 1 192.6718 61.5 Tm (Obtain) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 223.4466 66.5 Tm (Grade) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 10.53738 42.5 Tm (CS-561) Tj T* ET
+q
+1 0 0 1 52.88976 40 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.5 Tm /F1 8.5 Tf 10 TL (Expert Systems) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 42.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 42.5 Tm (86) Tj T* ET
+BT 1 0 0 1 230.4124 42.5 Tm (A+) Tj T* ET
+BT 1 0 0 1 10.53738 24.5 Tm (CS-565) Tj T* ET
+q
+1 0 0 1 52.88976 22 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.5 Tm /F1 8.5 Tf 10 TL (Computer Vision) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 24.5 Tm (3) Tj T* ET
+BT 1 0 0 1 199.822 24.5 Tm (83) Tj T* ET
+BT 1 0 0 1 232.8944 24.5 Tm (A) Tj T* ET
+BT /F1 7 Tf 12 TL ET
+BT 1 0 0 1 3 8 Tm (Credit Hrs=6) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 52.88976 6.5 Tm (Semester GPA=3.85) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 189.4889 6.5 Tm (CGPA=) Tj T* ET
+BT 1 0 0 1 227.4586 6.5 Tm (3.82) Tj T* ET
+q
+1 J
+1 j
+0 0 0 RG
+.6 w
+n 0 84 m 249.4488 84 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 84 l S
+n 249.4488 0 m 249.4488 84 l S
+n 0 54 m 249.4488 54 l S
+n 0 36 m 249.4488 36 l S
+n 0 18 m 249.4488 18 l S
+n 49.88976 0 m 49.88976 84 l S
+n 159.6472 18 m 159.6472 84 l S
+n 187.0866 0 m 187.0866 84 l S
+n 222.0094 0 m 222.0094 84 l S
+.8 w
+n 0 102 m 249.4488 102 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 102 l S
+n 249.4488 0 m 249.4488 102 l S
+.6 w
+n 0 84 m 159.6472 84 l S
+Q
+Q
+Q
+BT 1 0 0 1 249.4488 95 Tm  T* ET
+q
+1 0 0 1 266.4567 21 cm
+q
+0 0 0 rg
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 3 72.5 Tm (Semester 4) Tj T* ET
+BT 1 0 0 1 162.6472 72.5 Tm  T* ET
+BT 1 0 0 1 190.0866 72.5 Tm  T* ET
+BT 1 0 0 1 225.0094 72.5 Tm  T* ET
+BT 1 0 0 1 14.31988 48.5 Tm (Code) Tj T* ET
+BT 1 0 0 1 80.20775 48.5 Tm (Course Title) Tj T* ET
+BT 1 0 0 1 160.3789 48.5 Tm (Cr Hrs) Tj T* ET
+BT /F2 7.5 Tf 12 TL ET
+BT 1 0 0 1 193.7105 55.5 Tm (Marks) Tj T* ET
+BT 1 0 0 1 192.6718 43.5 Tm (Obtain) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 223.4466 48.5 Tm (Grade) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 10.53738 24.5 Tm (CS-691) Tj T* ET
+q
+1 0 0 1 52.88976 22 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.5 Tm /F1 8.5 Tf 10 TL (Thesis) Tj T* ET
+Q
+Q
+BT 1 0 0 1 171.0039 24.5 Tm (6) Tj T* ET
+BT 1 0 0 1 199.822 24.5 Tm (85) Tj T* ET
+BT 1 0 0 1 230.4124 24.5 Tm (A+) Tj T* ET
+BT /F1 7 Tf 12 TL ET
+BT 1 0 0 1 3 8 Tm (Credit Hrs=6) Tj T* ET
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 52.88976 6.5 Tm (Semester GPA=4.00) Tj T* ET
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 189.4889 6.5 Tm (CGPA=) Tj T* ET
+BT 1 0 0 1 227.4586 6.5 Tm (3.85) Tj T* ET
+q
+1 J
+1 j
+0 0 0 RG
+.6 w
+n 0 66 m 249.4488 66 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 66 l S
+n 249.4488 0 m 249.4488 66 l S
+n 0 36 m 249.4488 36 l S
+n 0 18 m 249.4488 18 l S
+n 49.88976 0 m 49.88976 66 l S
+n 159.6472 18 m 159.6472 66 l S
+n 187.0866 0 m 187.0866 66 l S
+n 222.0094 0 m 222.0094 66 l S
+.8 w
+n 0 84 m 249.4488 84 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 84 l S
+n 249.4488 0 m 249.4488 84 l S
+.6 w
+n 0 66 m 159.6472 66 l S
+Q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 45.68504 311.6047 cm
+Q
+q
+1 0 0 1 39.68504 275.6047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 3 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 13 Tm 11 TL /F1 9 Tf 0 0 0 rg (Thesis Title: ) Tj /F2 9 Tf ("Taxonomy of IDS: Intrusion Detection) Tj T* (using System Call Sequence") Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n 0 30 m 249.4488 30 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 30 l S
+n 249.4488 0 m 249.4488 30 l S
+Q
+Q
+Q
+BT 1 0 0 1 249.4488 23 Tm  T* ET
+q
+1 0 0 1 266.4567 13 cm
+q
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 48.28708 7 Tm (Percentage According to CGPA=) Tj T* ET
+BT 1 0 0 1 210.7504 7 Tm (83.00) Tj T* ET
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n 0 20 m 249.4488 20 l S
+n 0 0 m 249.4488 0 l S
+n 0 0 m 0 20 l S
+n 249.4488 0 m 249.4488 20 l S
+.6 w
+n 194.5701 0 m 194.5701 20 l S
+Q
+Q
+Q
+q
+Q
+Q
+Q
+ 
+
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000459 00000 n 
+0000000518 00000 n 
+0000000584 00000 n 
+0000000783 00000 n 
+0000011349 00000 n 
+0000011411 00000 n 
+0000011518 00000 n 
+0000011630 00000 n 
+0000011738 00000 n 
+0000011848 00000 n 
+trailer
+<<
+/Size 12
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+11870
+%%EOF
