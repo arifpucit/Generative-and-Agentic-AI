@@ -104,6 +104,7 @@ dependencies = [
     "langchain-ollama>=1.1.0",
     "docling>=2.147.0",
     "langchain-docling>=3.0.0",
+    "rank-bm25>=0.2.2",
 ]
 
 [tool.uv.sources]

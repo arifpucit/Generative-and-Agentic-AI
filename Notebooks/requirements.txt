@@ -950,6 +950,7 @@ numpy==2.4.4
     #   pandas
     #   peft
     #   qdrant-client
+    #   rank-bm25
     #   rapidocr
     #   rouge-score
     #   sacrebleu
@@ -1458,6 +1459,8 @@ pyzmq==27.1.0
     #   jupyter-client
     #   jupyter-server
 qdrant-client==1.17.1
+    # via genai-course
+rank-bm25==0.2.2
     # via genai-course
 rapidfuzz==3.14.5
     # via unstructured
