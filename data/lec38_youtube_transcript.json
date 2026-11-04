@@ -1,0 +1,397 @@
+{
+ "video_id": "ndl79-VDl50",
+ "url": "https://www.youtube.com/watch?v=ndl79-VDl50",
+ "language": "en",
+ "snippets": [
+  {
+   "text": "bismillah ar-rahman rahim assalamu",
+   "start": 0.949,
+   "duration": 5.261
+  },
+  {
+   "text": "alaikum dear students I welcome you to",
+   "start": 2.909,
+   "duration": 4.4
+  },
+  {
+   "text": "this",
+   "start": 6.21,
+   "duration": 4.11
+  },
+  {
+   "text": "series of lectures for linux shell",
+   "start": 7.309,
+   "duration": 5.79
+  },
+  {
+   "text": "commands",
+   "start": 10.32,
+   "duration": 2.779
+  },
+  {
+   "text": "these are long awaited by my students",
+   "start": 13.309,
+   "duration": 3.851
+  },
+  {
+   "text": "operating system as well as system",
+   "start": 15.63,
+   "duration": 3.95
+  },
+  {
+   "text": "programming",
+   "start": 17.16,
+   "duration": 2.42
+  },
+  {
+   "text": "the main objective of the series of",
+   "start": 19.73,
+   "duration": 4.98
+  },
+  {
+   "text": "lectures",
+   "start": 22.859,
+   "duration": 5.301
+  },
+  {
+   "text": "is to acquaint the students of",
+   "start": 24.71,
+   "duration": 6.509
+  },
+  {
+   "text": "undergraduate operating system course",
+   "start": 28.16,
+   "duration": 6.01
+  },
+  {
+   "text": "to map the concepts that to study in the",
+   "start": 31.219,
+   "duration": 7.5
+  },
+  {
+   "text": "class using Linux tools",
+   "start": 34.17,
+   "duration": 4.549
+  },
+  {
+   "text": "it is also useful for",
+   "start": 38.84,
+   "duration": 8.129
+  },
+  {
+   "text": "the students who are learning Linux as",
+   "start": 43.07,
+   "duration": 7.41
+  },
+  {
+   "text": "system administrator",
+   "start": 46.969,
+   "duration": 3.511
+  },
+  {
+   "text": "students in this course in this series",
+   "start": 52.28,
+   "duration": 6.509
+  },
+  {
+   "text": "of lectures basically",
+   "start": 55.199,
+   "duration": 6.601
+  },
+  {
+   "text": "we will start with the concepts of UNIX",
+   "start": 58.789,
+   "duration": 4.65
+  },
+  {
+   "text": "shell",
+   "start": 61.8,
+   "duration": 3.83
+  },
+  {
+   "text": "then we will see",
+   "start": 63.439,
+   "duration": 4.871
+  },
+  {
+   "text": "how processes are managed by the UNIX",
+   "start": 65.63,
+   "duration": 3.3
+  },
+  {
+   "text": "shell",
+   "start": 68.31,
+   "duration": 3.69
+  },
+  {
+   "text": "how processes are created how the",
+   "start": 68.93,
+   "duration": 4.89
+  },
+  {
+   "text": "priorities are managed",
+   "start": 72.0,
+   "duration": 5.4
+  },
+  {
+   "text": "how they are scheduled how they are",
+   "start": 73.82,
+   "duration": 7.95
+  },
+  {
+   "text": "terminated we will see in detail",
+   "start": 77.4,
+   "duration": 7.079
+  },
+  {
+   "text": "how information about all the running",
+   "start": 81.77,
+   "duration": 5.44
+  },
+  {
+   "text": "processes are managed by the Linux",
+   "start": 84.479,
+   "duration": 4.621
+  },
+  {
+   "text": "kernel inside the proc file system as",
+   "start": 87.21,
+   "duration": 3.409
+  },
+  {
+   "text": "well",
+   "start": 89.1,
+   "duration": 4.43
+  },
+  {
+   "text": "we will talk about",
+   "start": 90.619,
+   "duration": 7.0
+  },
+  {
+   "text": "different editors like vim Pico nano",
+   "start": 93.53,
+   "duration": 7.229
+  },
+  {
+   "text": "used by Linux",
+   "start": 97.619,
+   "duration": 3.14
+  },
+  {
+   "text": "particularly them about which Dennis eg",
+   "start": 100.97,
+   "duration": 5.859
+  },
+  {
+   "text": "has said if you do not know when you do",
+   "start": 103.799,
+   "duration": 5.421
+  },
+  {
+   "text": "not know UNIX",
+   "start": 106.829,
+   "duration": 5.04
+  },
+  {
+   "text": "we will see how process carries out",
+   "start": 109.22,
+   "duration": 4.23
+  },
+  {
+   "text": "inter process communication",
+   "start": 111.869,
+   "duration": 5.03
+  },
+  {
+   "text": "using signals",
+   "start": 113.45,
+   "duration": 7.54
+  },
+  {
+   "text": "pipes fie phones message queues and",
+   "start": 116.899,
+   "duration": 5.731
+  },
+  {
+   "text": "shared memory",
+   "start": 120.99,
+   "duration": 4.35
+  },
+  {
+   "text": "we will talk about the limitation of",
+   "start": 122.63,
+   "duration": 4.96
+  },
+  {
+   "text": "processes that make us move on to",
+   "start": 125.34,
+   "duration": 4.25
+  },
+  {
+   "text": "threads",
+   "start": 127.59,
+   "duration": 4.11
+  },
+  {
+   "text": "you can see",
+   "start": 129.59,
+   "duration": 4.93
+  },
+  {
+   "text": "special files like character special",
+   "start": 131.7,
+   "duration": 6.539
+  },
+  {
+   "text": "files block special files will see the",
+   "start": 134.52,
+   "duration": 6.63
+  },
+  {
+   "text": "terminals we will see how the stty",
+   "start": 138.239,
+   "duration": 4.731
+  },
+  {
+   "text": "command works",
+   "start": 141.15,
+   "duration": 4.76
+  },
+  {
+   "text": "we'll talk about",
+   "start": 142.97,
+   "duration": 6.22
+  },
+  {
+   "text": "user management in Linux we will talk",
+   "start": 145.91,
+   "duration": 6.579
+  },
+  {
+   "text": "about the permission sets of files and",
+   "start": 149.19,
+   "duration": 6.86
+  },
+  {
+   "text": "how they are implemented",
+   "start": 152.489,
+   "duration": 3.561
+  },
+  {
+   "text": "we will see how we can install binary",
+   "start": 156.29,
+   "duration": 7.39
+  },
+  {
+   "text": "software packages using apt yum or maybe",
+   "start": 159.69,
+   "duration": 8.18
+  },
+  {
+   "text": "rpm if we are using Red Hat",
+   "start": 163.68,
+   "duration": 4.19
+  },
+  {
+   "text": "we will talk about different tools and",
+   "start": 168.98,
+   "duration": 6.729
+  },
+  {
+   "text": "commands that are used to manage the",
+   "start": 172.44,
+   "duration": 6.109
+  },
+  {
+   "text": "network on Linux",
+   "start": 175.709,
+   "duration": 6.831
+  },
+  {
+   "text": "and finally we will see",
+   "start": 178.549,
+   "duration": 8.381
+  },
+  {
+   "text": "a bit of details as how we can use these",
+   "start": 182.54,
+   "duration": 8.229
+  },
+  {
+   "text": "tools in bash shell scripting and if",
+   "start": 186.93,
+   "duration": 7.7
+  },
+  {
+   "text": "time permits I will of course talk about",
+   "start": 190.769,
+   "duration": 7.491
+  },
+  {
+   "text": "the Python as well",
+   "start": 194.63,
+   "duration": 3.63
+  },
+  {
+   "text": "last but not the least in between I will",
+   "start": 198.799,
+   "duration": 6.131
+  },
+  {
+   "text": "of course switch gear to acquaint the",
+   "start": 202.17,
+   "duration": 5.48
+  },
+  {
+   "text": "students how to use",
+   "start": 204.93,
+   "duration": 2.72
+  },
+  {
+   "text": "GCC and gdb",
+   "start": 209.329,
+   "duration": 7.901
+  },
+  {
+   "text": "to understand the usage of system calls",
+   "start": 212.989,
+   "duration": 5.34
+  },
+  {
+   "text": "like",
+   "start": 217.23,
+   "duration": 5.06
+  },
+  {
+   "text": "folk wait and exit I",
+   "start": 218.329,
+   "duration": 6.731
+  },
+  {
+   "text": "hope it will be informative for you all",
+   "start": 222.29,
+   "duration": 6.669
+  },
+  {
+   "text": "and it will be fun learning Linux with",
+   "start": 225.06,
+   "duration": 5.72
+  },
+  {
+   "text": "our effort at",
+   "start": 228.959,
+   "duration": 4.461
+  },
+  {
+   "text": "pmcid of course I",
+   "start": 230.78,
+   "duration": 7.53
+  },
+  {
+   "text": "wish you all the best Allah Hafiz",
+   "start": 233.42,
+   "duration": 4.89
+  }
+ ]
+}
