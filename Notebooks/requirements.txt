@@ -7,6 +7,7 @@ absl-py==2.5.1
     # via rouge-score
 accelerate==1.13.0
     # via
+    #   docling-slim
     #   genai-course
     #   peft
     #   trl
@@ -61,7 +62,7 @@ argon2-cffi-bindings==26.1.0
     # via argon2-cffi
 arrow==1.4.0
     # via isoduration
-arxiv==3.0.0
+arxiv==4.0.2
     # via genai-course
 asttokens==3.0.1
     # via stack-data
@@ -86,6 +87,7 @@ beartype==0.23.1
     # via py-key-value-aio
 beautifulsoup4==4.14.3
     # via
+    #   docling-slim
     #   genai-course
     #   nbconvert
     #   unstructured
@@ -119,6 +121,7 @@ cbor2==6.0.1
     # via modal
 certifi==2026.10.23
     # via
+    #   docling-slim
     #   fastmcp-slim
     #   google-cloud-aiplatform
     #   httpcore
@@ -166,12 +169,15 @@ colorama==0.4.6
     # via
     #   build
     #   click
+    #   colorlog
     #   ipython
     #   pytest
     #   sacrebleu
     #   tqdm
     #   uvicorn
     #   wasabi
+colorlog==6.12.0
+    # via rapidocr
 comm==0.2.3
     # via
     #   ipykernel
@@ -231,6 +237,8 @@ deepagents==0.7.32
     # via genai-course
 defusedxml==0.7.1
     # via
+    #   docling-core
+    #   docling-slim
     #   nbconvert
     #   youtube-transcript-api
 deprecated==1.3.1
@@ -255,6 +263,22 @@ dnspython==2.8.0
     # via
     #   email-validator
     #   pymongo
+doclang==0.9.0
+    # via docling-core
+docling==2.147.0
+    # via genai-course
+docling-core==2.106.0
+    # via
+    #   docling-parse
+    #   docling-slim
+docling-ibm-models==4.0.4
+    # via docling-slim
+docling-parse==7.24.2
+    # via docling-slim
+docling-slim==2.147.0
+    # via
+    #   docling
+    #   langchain-docling
 docstring-parser==0.18.0
     # via
     #   anthropic
@@ -288,6 +312,8 @@ executing==2.2.1
     # via stack-data
 faiss-cpu==1.13.2
     # via genai-course
+faker==40.44.0
+    # via polyfactory
 fastapi==0.136.1
     # via
     #   gradio
@@ -301,9 +327,7 @@ fastmcp==4.1.5
 fastmcp-slim==4.1.5
     # via fastmcp
 feedparser==6.0.12
-    # via
-    #   arxiv
-    #   genai-course
+    # via genai-course
 ffmpeg==1.4
     # via genai-course
 filelock==3.29.0
@@ -316,6 +340,7 @@ filelock==3.29.0
     #   unstructured
 filetype==1.2.0
     # via
+    #   docling-slim
     #   langchain-google-genai
     #   unstructured
 flatbuffers==25.12.19
@@ -469,6 +494,7 @@ httpx==0.28.1
     #   chromadb
     #   datasets
     #   diffusers
+    #   docling-slim
     #   google-genai
     #   gradio
     #   gradio-client
@@ -505,6 +531,8 @@ huggingface-hub==1.13.0
     #   accelerate
     #   datasets
     #   diffusers
+    #   docling-ibm-models
+    #   docling-slim
     #   evaluate
     #   genai-course
     #   gradio
@@ -597,10 +625,13 @@ jsonpointer==3.1.1
     #   jsonpatch
     #   jsonschema
 jsonref==1.1.0
-    # via fastmcp-slim
+    # via
+    #   docling-core
+    #   fastmcp-slim
 jsonschema==4.26.0
     # via
     #   chromadb
+    #   docling-core
     #   jupyter-events
     #   jupyterlab-server
     #   mcp
@@ -674,6 +705,7 @@ langchain-core==1.7.3
     #   langchain-chroma
     #   langchain-classic
     #   langchain-community
+    #   langchain-docling
     #   langchain-experimental
     #   langchain-google-genai
     #   langchain-google-vertexai
@@ -687,6 +719,8 @@ langchain-core==1.7.3
     #   langgraph-checkpoint
     #   langgraph-prebuilt
     #   langgraph-sdk
+langchain-docling==3.0.0
+    # via genai-course
 langchain-experimental==0.4.1
     # via genai-course
 langchain-google-genai==4.4.2
@@ -713,6 +747,8 @@ langchain-text-splitters==1.1.2
     # via
     #   genai-course
     #   langchain-classic
+langcodes==3.5.1
+    # via docling-slim
 langdetect==1.0.9
     # via unstructured
 langgraph==1.2.19
@@ -736,6 +772,8 @@ langsmith==0.14.17
     #   langchain-core
 lark==1.3.1
     # via rfc3987-syntax
+latex2mathml==3.81.1
+    # via docling-core
 llguidance==1.9.1 ; platform_machine == 'arm64' and sys_platform == 'darwin'
     # via mlx-vlm
 llvmlite==0.47.0
@@ -744,12 +782,19 @@ lm-eval==0.4.13
     # via genai-course
 lxml==6.1.0
     # via
+    #   arxiv
+    #   doclang
     #   duckduckgo-search
     #   python-docx
+    #   python-pptx
     #   sacrebleu
     #   unstructured
+mail-parser==4.10.0
+    # via docling-slim
 markdown-it-py==4.0.0
     # via rich
+marko==2.2.5
+    # via docling-slim
 markupsafe==3.0.3
     # via
     #   gradio
@@ -811,6 +856,8 @@ modal==1.4.2
     # via genai-course
 more-itertools==11.2.1
     # via lm-eval
+mpire==2.10.2
+    # via semchunk
 mpmath==1.3.0
     # via sympy
 msgspec==0.22.0
@@ -826,6 +873,7 @@ multiprocess==0.70.19
     # via
     #   datasets
     #   evaluate
+    #   mpire
 murmurhash==1.0.15
     # via
     #   preshed
@@ -879,6 +927,8 @@ numpy==2.4.4
     #   contourpy
     #   datasets
     #   diffusers
+    #   docling-ibm-models
+    #   docling-slim
     #   evaluate
     #   faiss-cpu
     #   genai-course
@@ -896,14 +946,18 @@ numpy==2.4.4
     #   numexpr
     #   onnxruntime
     #   opencv-python
+    #   opencv-python-headless
     #   pandas
     #   peft
     #   qdrant-client
+    #   rapidocr
     #   rouge-score
     #   sacrebleu
+    #   safetensors
     #   scikit-learn
     #   scipy
     #   sentence-transformers
+    #   shapely
     #   soundfile
     #   spacy
     #   thinc
@@ -967,6 +1021,8 @@ ollama==0.6.2
     # via
     #   genai-course
     #   langchain-ollama
+omegaconf==2.4.0
+    # via rapidocr
 onnxruntime==1.25.1
     # via chromadb
 openai==2.54.0
@@ -983,8 +1039,12 @@ opencv-python==5.0.0.93
     # via
     #   mlx-vlm
     #   ultralytics
+opencv-python-headless==5.0.0.93
+    # via rapidocr
 openpyxl==3.1.5
-    # via genai-course
+    # via
+    #   docling-slim
+    #   genai-course
 openrouter==0.10.8
     # via langchain-openrouter
 opentelemetry-api==1.41.1
@@ -1050,6 +1110,7 @@ packaging==26.2
     #   peft
     #   plotly
     #   pytest
+    #   safetensors
     #   spacy
     #   thinc
     #   transformers
@@ -1062,6 +1123,7 @@ packaging==26.2
 pandas==3.0.2
     # via
     #   datasets
+    #   docling-core
     #   evaluate
     #   genai-course
     #   gradio
@@ -1083,9 +1145,15 @@ pexpect==4.9.0 ; sys_platform != 'emscripten' and sys_platform != 'win32'
 pillow==12.2.0
     # via
     #   diffusers
+    #   docling-core
+    #   docling-ibm-models
+    #   docling-parse
+    #   docling-slim
     #   gradio
     #   matplotlib
     #   mlx-vlm
+    #   python-pptx
+    #   rapidocr
     #   torchvision
     #   ultralytics
     #   unsloth-zoo
@@ -1105,11 +1173,15 @@ playwright==1.59.0
 plotly==6.7.0
     # via genai-course
 pluggy==1.6.0
-    # via pytest
+    # via
+    #   docling-slim
+    #   pytest
 polars==2.1.0
     # via ultralytics
 polars-runtime-32==2.1.0
     # via polars
+polyfactory==3.5.0
+    # via docling-slim
 portalocker==3.2.0
     # via
     #   qdrant-client
@@ -1187,12 +1259,17 @@ pyasn1-modules==0.4.2
     # via google-auth
 pybase64==1.4.3
     # via chromadb
+pyclipper==1.4.0
+    # via rapidocr
 pycparser==3.0 ; implementation_name != 'PyPy'
     # via cffi
 pydantic==2.13.3
     # via
     #   anthropic
     #   chromadb
+    #   docling-core
+    #   docling-parse
+    #   docling-slim
     #   fastapi
     #   fastmcp-slim
     #   genai-course
@@ -1231,6 +1308,8 @@ pydantic-core==2.46.3
 pydantic-settings==2.14.0
     # via
     #   chromadb
+    #   docling-core
+    #   docling-slim
     #   fastmcp-slim
     #   langchain-community
 pydub==0.25.1
@@ -1243,12 +1322,15 @@ pygments==2.20.0
     # via
     #   ipython
     #   ipython-pygments-lexers
+    #   mpire
     #   nbconvert
     #   pytest
     #   rich
     #   rich-rst
 pyjwt==2.12.1
     # via mcp
+pylatexenc==2.11
+    # via docling-slim
 pymongo==4.17.0
     # via genai-course
 pymysql==1.1.3
@@ -1260,7 +1342,9 @@ pyparsing==3.3.2
 pypdf==6.10.2
     # via unstructured-client
 pypdfium2==5.7.1
-    # via unstructured-client
+    # via
+    #   docling-slim
+    #   unstructured-client
 pyperclip==1.11.0
     # via fastmcp-slim
 pypika==0.51.1
@@ -1299,9 +1383,12 @@ python-dateutil==2.9.0.post0
     #   pinecone
     #   typepy
 python-docx==1.2.0
-    # via genai-course
+    # via
+    #   docling-slim
+    #   genai-course
 python-dotenv==1.2.2
     # via
+    #   docling-slim
     #   dotenv
     #   fastmcp-slim
     #   pydantic-settings
@@ -1321,7 +1408,11 @@ python-multipart==0.0.27
     #   mcp
     #   mlx-vlm
 python-oxmsg==0.0.2
-    # via unstructured
+    # via
+    #   docling-slim
+    #   unstructured
+python-pptx==1.0.2
+    # via docling-slim
 pytz==2026.1.post1
     # via
     #   gradio
@@ -1329,7 +1420,9 @@ pytz==2026.1.post1
     #   typepy
 pywin32==311 ; sys_platform == 'win32'
     # via
+    #   docling-parse
     #   mcp
+    #   mpire
     #   portalocker
 pywinpty==3.1.2 ; os_name == 'nt' and sys_platform != 'darwin' and sys_platform != 'linux'
     # via
@@ -1341,6 +1434,7 @@ pyyaml==6.0.3
     #   accelerate
     #   chromadb
     #   datasets
+    #   docling-core
     #   fastmcp-slim
     #   gradio
     #   huggingface-hub
@@ -1351,7 +1445,9 @@ pyyaml==6.0.3
     #   langchain-community
     #   langchain-core
     #   mlx-lm
+    #   omegaconf
     #   peft
+    #   rapidocr
     #   transformers
     #   unsloth
     #   uvicorn
@@ -1365,6 +1461,8 @@ qdrant-client==1.17.1
     # via genai-course
 rapidfuzz==3.14.5
     # via unstructured
+rapidocr==3.10.0
+    # via docling-slim
 redis==7.4.0
     # via genai-course
 referencing==0.37.0
@@ -1382,11 +1480,13 @@ regex==2026.4.4
     #   transformers
     #   unsloth-zoo
     #   unstructured
-requests==2.33.1
+requests==2.34.2
     # via
     #   arxiv
     #   datasets
     #   diffusers
+    #   docling-core
+    #   docling-slim
     #   evaluate
     #   genai-course
     #   google-api-core
@@ -1405,6 +1505,7 @@ requests==2.33.1
     #   mlx-vlm
     #   openai-agents
     #   pinecone-plugin-assistant
+    #   rapidocr
     #   requests-oauthlib
     #   requests-toolbelt
     #   spacy
@@ -1434,6 +1535,7 @@ rich==14.3.4
     # via
     #   chromadb
     #   cyclopts
+    #   docling-slim
     #   fastmcp-slim
     #   instructor
     #   modal
@@ -1449,6 +1551,8 @@ rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
+rtree==1.4.1
+    # via docling-slim
 sacrebleu==2.6.0
     # via lm-eval
 safehttpx==0.1.7
@@ -1457,6 +1561,7 @@ safetensors==0.7.0
     # via
     #   accelerate
     #   diffusers
+    #   docling-ibm-models
     #   peft
     #   transformers
 scikit-learn==1.8.0
@@ -1466,6 +1571,7 @@ scikit-learn==1.8.0
     #   sentence-transformers
 scipy==1.17.1
     # via
+    #   docling-slim
     #   genai-course
     #   gensim
     #   mlx-audio
@@ -1473,6 +1579,8 @@ scipy==1.17.1
     #   sentence-transformers
 semantic-version==2.10.0
     # via gradio
+semchunk==3.2.5
+    # via docling-core
 send2trash==2.1.0
     # via jupyter-server
 sendgrid==6.12.5
@@ -1493,6 +1601,8 @@ setuptools==81.0.0
     #   torch
 sgmllib3k==1.0.0
     # via feedparser
+shapely==2.2.0
+    # via rapidocr
 shellingham==1.5.4
     # via typer
 six==1.17.0
@@ -1501,6 +1611,7 @@ six==1.17.0
     #   kubernetes
     #   langdetect
     #   python-dateutil
+    #   rapidocr
     #   rfc3339-validator
     #   rouge-score
 smart-open==7.6.0
@@ -1565,7 +1676,9 @@ syrupy==5.1.0
 tabledata==1.3.5
     # via pytablewriter
 tabulate==0.10.0
-    # via sacrebleu
+    # via
+    #   docling-core
+    #   sacrebleu
 tcolorpy==0.1.7
     # via pytablewriter
 tenacity==9.1.4
@@ -1605,8 +1718,11 @@ torch==2.11.0 ; sys_platform != 'linux' and sys_platform != 'win32'
     #   accelerate
     #   bitsandbytes
     #   cut-cross-entropy
+    #   docling-ibm-models
+    #   docling-slim
     #   genai-course
     #   peft
+    #   safetensors
     #   sentence-transformers
     #   torchvision
     #   ultralytics
@@ -1619,8 +1735,11 @@ torch==2.11.0+cu128 ; sys_platform == 'linux' or sys_platform == 'win32'
     #   accelerate
     #   bitsandbytes
     #   cut-cross-entropy
+    #   docling-ibm-models
+    #   docling-slim
     #   genai-course
     #   peft
+    #   safetensors
     #   sentence-transformers
     #   torchvision
     #   ultralytics
@@ -1632,11 +1751,15 @@ torchao==0.18.0 ; platform_machine != 'arm64' or sys_platform != 'darwin'
     # via unsloth-zoo
 torchvision==0.26.0 ; sys_platform != 'linux' and sys_platform != 'win32'
     # via
+    #   docling-ibm-models
+    #   docling-slim
     #   genai-course
     #   ultralytics
     #   unsloth
 torchvision==0.26.0+cu128 ; sys_platform == 'linux' or sys_platform == 'win32'
     # via
+    #   docling-ibm-models
+    #   docling-slim
     #   genai-course
     #   ultralytics
     #   unsloth
@@ -1651,14 +1774,18 @@ tqdm==4.67.3
     # via
     #   chromadb
     #   datasets
+    #   docling-slim
     #   evaluate
     #   huggingface-hub
     #   lm-eval
     #   mlx-audio
     #   mlx-vlm
+    #   mpire
     #   nltk
     #   openai
     #   peft
+    #   rapidocr
+    #   semchunk
     #   sentence-transformers
     #   spacy
     #   transformers
@@ -1682,6 +1809,8 @@ traitlets==5.14.3
     #   nbformat
 transformers==5.7.0
     # via
+    #   docling-core
+    #   docling-ibm-models
     #   genai-course
     #   mlx-audio
     #   mlx-lm
@@ -1691,6 +1820,16 @@ transformers==5.7.0
     #   trl
     #   unsloth
     #   unsloth-zoo
+tree-sitter==0.26.0
+    # via docling-core
+tree-sitter-c==0.24.2
+    # via docling-core
+tree-sitter-javascript==0.25.0
+    # via docling-core
+tree-sitter-python==0.25.0
+    # via docling-core
+tree-sitter-typescript==0.23.2
+    # via docling-core
 triton==3.6.0 ; 'linux' in sys_platform or sys_platform == 'linux'
     # via
     #   cut-cross-entropy
@@ -1718,6 +1857,9 @@ typepy==1.3.5
 typer==0.23.1
     # via
     #   chromadb
+    #   doclang
+    #   docling-core
+    #   docling-slim
     #   gradio
     #   hf-gradio
     #   huggingface-hub
@@ -1738,6 +1880,7 @@ typing-extensions==4.15.0
     #   anyio
     #   beautifulsoup4
     #   chromadb
+    #   docling-core
     #   exceptiongroup
     #   fastapi
     #   fastmcp-slim
@@ -1763,6 +1906,7 @@ typing-extensions==4.15.0
     #   opentelemetry-sdk
     #   opentelemetry-semantic-conventions
     #   pinecone
+    #   polyfactory
     #   py-key-value-aio
     #   pydantic
     #   pydantic-core
@@ -1770,6 +1914,7 @@ typing-extensions==4.15.0
     #   pytest-asyncio
     #   python-docx
     #   python-oxmsg
+    #   python-pptx
     #   referencing
     #   sentence-transformers
     #   sqlalchemy
@@ -1797,6 +1942,7 @@ tyro==1.0.16
 tzdata==2026.2
     # via
     #   arrow
+    #   faker
     #   pandas
 ultralytics==8.4.198
     # via genai-course
@@ -1874,6 +2020,7 @@ websocket-client==1.9.0
     #   kubernetes
 websockets==16.0
     # via
+    #   docling-slim
     #   fastmcp-slim
     #   google-genai
     #   langgraph-sdk
@@ -1904,6 +2051,8 @@ xformers==0.0.35 ; (platform_machine == 'AMD64' and 'linux' in sys_platform) or 
     # via unsloth
 xlrd==2.0.2
     # via genai-course
+xlsxwriter==3.3.1
+    # via python-pptx
 xxhash==3.7.0
     # via
     #   datasets
