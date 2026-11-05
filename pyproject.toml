@@ -105,6 +105,7 @@ dependencies = [
     "docling>=2.147.0",
     "langchain-docling>=3.0.0",
     "rank-bm25>=0.2.2",
+    "airllm>=4.0.0",
 ]
 
 [tool.uv.sources]

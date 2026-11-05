@@ -7,6 +7,7 @@ absl-py==2.5.1
     # via rouge-score
 accelerate==1.13.0
     # via
+    #   airllm
     #   docling-slim
     #   genai-course
     #   peft
@@ -28,6 +29,8 @@ aiohttp==3.13.5
     #   modal
 aiosignal==1.4.0
     # via aiohttp
+airllm==4.0.0
+    # via genai-course
 annotated-doc==0.0.4
     # via
     #   fastapi
@@ -529,6 +532,7 @@ httpx2-jsfetch==1.0 ; sys_platform == 'emscripten'
 huggingface-hub==1.13.0
     # via
     #   accelerate
+    #   airllm
     #   datasets
     #   diffusers
     #   docling-ibm-models
@@ -1563,6 +1567,7 @@ safehttpx==0.1.7
 safetensors==0.7.0
     # via
     #   accelerate
+    #   airllm
     #   diffusers
     #   docling-ibm-models
     #   peft
@@ -1574,6 +1579,7 @@ scikit-learn==1.8.0
     #   sentence-transformers
 scipy==1.17.1
     # via
+    #   airllm
     #   docling-slim
     #   genai-course
     #   gensim
@@ -1592,6 +1598,7 @@ sentence-transformers==5.4.1
     # via genai-course
 sentencepiece==0.2.1
     # via
+    #   airllm
     #   genai-course
     #   mlx-lm
     #   unsloth
@@ -1719,6 +1726,7 @@ tomlkit==0.14.0
 torch==2.11.0 ; sys_platform != 'linux' and sys_platform != 'win32'
     # via
     #   accelerate
+    #   airllm
     #   bitsandbytes
     #   cut-cross-entropy
     #   docling-ibm-models
@@ -1736,6 +1744,7 @@ torch==2.11.0 ; sys_platform != 'linux' and sys_platform != 'win32'
 torch==2.11.0+cu128 ; sys_platform == 'linux' or sys_platform == 'win32'
     # via
     #   accelerate
+    #   airllm
     #   bitsandbytes
     #   cut-cross-entropy
     #   docling-ibm-models
@@ -1775,6 +1784,7 @@ tornado==6.5.5
     #   terminado
 tqdm==4.67.3
     # via
+    #   airllm
     #   chromadb
     #   datasets
     #   docling-slim
@@ -1812,6 +1822,7 @@ traitlets==5.14.3
     #   nbformat
 transformers==5.7.0
     # via
+    #   airllm
     #   docling-core
     #   docling-ibm-models
     #   genai-course

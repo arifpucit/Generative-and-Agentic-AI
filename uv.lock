@@ -115,6 +115,26 @@ wheels = [
 ]
 
 [[package]]
+name = "airllm"
+version = "4.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "accelerate" },
+    { name = "huggingface-hub" },
+    { name = "safetensors" },
+    { name = "scipy" },
+    { name = "sentencepiece" },
+    { name = "torch", version = "2.11.0", source = { registry = "https://pypi.org/simple" }, marker = "sys_platform != 'linux' and sys_platform != 'win32'" },
+    { name = "torch", version = "2.11.0+cu128", source = { registry = "https://download.pytorch.org/whl/cu128" }, marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+    { name = "tqdm" },
+    { name = "transformers" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e2/16/eaa31d2e27d2212e9ef29f06b732e5d965beba9ce7d322422c3be461ad23/airllm-4.0.0.tar.gz", hash = "sha256:908d13e6254f65d02db4c78f18310a36831f2c1ca09d515679942ae7571539b4", size = 77325, upload-time = "2026-09-05T16:00:16.468Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6f/11/b64bd345075adad6e26cbeec8258cdbcd90b619867488a5f39ea1b6727f1/airllm-4.0.0-py3-none-any.whl", hash = "sha256:155e7c286acbfb5f82a358970d980efcefff1e3fcd8a4ebf3c5850137a31d841", size = 83338, upload-time = "2026-09-05T16:00:15.208Z" },
+]
+
+[[package]]
 name = "annotated-doc"
 version = "0.0.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1571,6 +1591,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "accelerate" },
+    { name = "airllm" },
     { name = "anthropic" },
     { name = "arxiv" },
     { name = "beautifulsoup4" },
@@ -1683,6 +1704,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "accelerate", specifier = ">=1.12.0" },
+    { name = "airllm", specifier = ">=4.0.0" },
     { name = "anthropic", specifier = ">=0.75.0" },
     { name = "arxiv", specifier = ">=2.4.0" },
     { name = "beautifulsoup4", specifier = ">=4.14.3" },
