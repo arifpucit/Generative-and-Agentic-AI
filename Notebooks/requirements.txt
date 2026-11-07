@@ -111,6 +111,8 @@ bracex==3.2
     # via wcmatch
 brotli==1.2.0
     # via gradio
+bsdiff4==1.4.2
+    # via langchain-quickjs
 build==1.5.0
     # via chromadb
 cachetools==7.2.8
@@ -243,7 +245,9 @@ debugpy==1.8.20
 decorator==5.2.1
     # via ipython
 deepagents==0.7.32
-    # via genai-course
+    # via
+    #   genai-course
+    #   langchain-quickjs
 defusedxml==0.7.1
     # via
     #   docling-core
@@ -699,6 +703,7 @@ langchain==1.4.7
     # via
     #   deepagents
     #   genai-course
+    #   langchain-quickjs
 langchain-anthropic==1.7.7
     # via
     #   deepagents
@@ -728,6 +733,7 @@ langchain-core==1.7.3
     #   langchain-ollama
     #   langchain-openai
     #   langchain-openrouter
+    #   langchain-quickjs
     #   langchain-tests
     #   langchain-text-splitters
     #   langgraph
@@ -756,6 +762,8 @@ langchain-protocol==0.0.20
     # via
     #   langchain-core
     #   langgraph-sdk
+langchain-quickjs==0.3.11
+    # via genai-course
 langchain-tests==1.1.7
     # via langchain-google-vertexai
 langchain-text-splitters==1.1.2
@@ -770,6 +778,7 @@ langgraph==1.2.19
     # via
     #   genai-course
     #   langchain
+    #   langchain-quickjs
 langgraph-checkpoint==4.3.1
     # via
     #   langgraph
@@ -1478,6 +1487,8 @@ pyzmq==27.1.0
     #   jupyter-server
 qdrant-client==1.17.1
     # via genai-course
+quickjs-rs==0.2.6
+    # via langchain-quickjs
 rank-bm25==0.2.2
     # via genai-course
 rapidfuzz==3.14.5
@@ -2028,6 +2039,8 @@ wasabi==1.1.3
     #   spacy
     #   thinc
     #   weasel
+wasmtime==50.0.1
+    # via quickjs-rs
 watchfiles==1.1.1
     # via
     #   fastmcp-slim
