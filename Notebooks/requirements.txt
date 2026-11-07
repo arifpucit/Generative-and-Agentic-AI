@@ -3,6 +3,8 @@
 --index-url https://pypi.org/simple
 --extra-index-url https://download.pytorch.org/whl/cu128
 
+a2a-sdk==1.3.0
+    # via genai-course
 absl-py==2.5.1
     # via rouge-score
 accelerate==1.13.0
@@ -27,6 +29,8 @@ aiohttp==3.13.5
     #   langchain-community
     #   lm-eval
     #   modal
+aiologic==0.17.1
+    # via culsans
 aiosignal==1.4.0
     # via aiohttp
 airllm==4.0.0
@@ -206,6 +210,8 @@ cuda-pathfinder==1.5.4 ; sys_platform == 'linux'
     # via cuda-bindings
 cuda-toolkit==12.8.1 ; sys_platform == 'linux'
     # via torch
+culsans==0.11.0
+    # via a2a-sdk
 cut-cross-entropy==25.1.1 ; platform_machine != 'arm64' or sys_platform != 'darwin'
     # via unsloth-zoo
 cycler==0.12.1
@@ -371,6 +377,7 @@ git-lfs==1.6
     # via genai-course
 google-api-core==2.30.3
     # via
+    #   a2a-sdk
     #   google-cloud-aiplatform
     #   google-cloud-bigquery
     #   google-cloud-core
@@ -418,6 +425,7 @@ google-resumable-media==2.8.2
     #   google-cloud-storage
 googleapis-common-protos==1.74.0
     # via
+    #   a2a-sdk
     #   google-api-core
     #   grpc-google-iam-v1
     #   grpcio-status
@@ -494,6 +502,7 @@ httptools==0.7.1
     # via uvicorn
 httpx==0.28.1
     # via
+    #   a2a-sdk
     #   chromadb
     #   datasets
     #   diffusers
@@ -616,6 +625,8 @@ joserfc==1.6.4
     #   fastmcp-slim
 jq==1.11.0
     # via genai-course
+json-rpc==1.15.0
+    # via a2a-sdk
 json5==0.17.3
     # via
     #   jupyterlab-server
@@ -1088,6 +1099,7 @@ overrides==7.7.0
     # via chromadb
 packaging==26.2
     # via
+    #   a2a-sdk
     #   accelerate
     #   bitsandbytes
     #   build
@@ -1213,6 +1225,7 @@ proto-plus==1.27.2
     #   google-cloud-vectorsearch
 protobuf==6.33.6
     # via
+    #   a2a-sdk
     #   google-api-core
     #   google-cloud-aiplatform
     #   google-cloud-resource-manager
@@ -1270,6 +1283,7 @@ pycparser==3.0 ; implementation_name != 'PyPy'
     # via cffi
 pydantic==2.13.3
     # via
+    #   a2a-sdk
     #   anthropic
     #   chromadb
     #   docling-core
@@ -1630,6 +1644,7 @@ smart-open==7.6.0
     #   weasel
 sniffio==1.3.1
     # via
+    #   aiologic
     #   anthropic
     #   google-genai
     #   groq
@@ -1664,11 +1679,14 @@ srsly==2.5.3
     #   thinc
     #   weasel
 sse-starlette==3.4.1
-    # via mcp
+    # via
+    #   a2a-sdk
+    #   mcp
 stack-data==0.6.3
     # via ipython
 starlette==1.10.0
     # via
+    #   a2a-sdk
     #   fastapi
     #   fastmcp-slim
     #   gradio
@@ -1889,11 +1907,13 @@ types-toml==0.10.8.20260408
     # via modal
 typing-extensions==4.15.0
     # via
+    #   aiologic
     #   aiosignal
     #   anthropic
     #   anyio
     #   beautifulsoup4
     #   chromadb
+    #   culsans
     #   docling-core
     #   exceptiongroup
     #   fastapi
@@ -2057,6 +2077,7 @@ wordcloud==1.9.6
     # via genai-course
 wrapt==2.1.2
     # via
+    #   aiologic
     #   deprecated
     #   smart-open
     #   unstructured
